@@ -38,4 +38,5 @@ chatbot = gr.ChatInterface(
     css=custom_css
 )
 
-chatbot.launch()
+chatbot.launch(share=True)
+
